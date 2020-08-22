@@ -1,0 +1,43 @@
+html {
+	margin: 0;
+	padding: 0;
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+}
+
+body {
+	background: red;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#heading {
+	width: 100vw;
+	height: 20vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#headingtitle {
+	color: white;
+	font-size: 5vw;
+}
+
+#headingsubtitle {
+	color: white;
+	font-size: 2vw;
+}
+
+#locker {
+	width: 100vw;
+	height: 80vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
