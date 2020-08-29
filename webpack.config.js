@@ -10,6 +10,7 @@ module.exports = {
 			}
 		]
 	},
+	target: "electron-main",
 	resolve: {
 		extensions: ['*', '.js', '.jsx']
 	},

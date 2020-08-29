@@ -1,13 +1,17 @@
-import React from 'react';
+import React, {useState} from 'react';
 import ReactDOM from 'react-dom';
-import Header from './Header';
+import SideBar from './SideBar';
 import Locker from './Locker';
+import MasterGenerator from './MasterGenerator';
 
 const App = () => {
-	return (<>
-	<Header/>
-	<Locker/>
-	</>);
+	
+	const [page, updatePage] = useState(<MasterGenerator/>);
+
+	return (<div id='appwrap'>
+	<SideBar page={page} updatePage={updatePage}/>
+	{page}
+	</div>);
 }
 
 ReactDOM.render(<App/>, document.getElementById('root'));

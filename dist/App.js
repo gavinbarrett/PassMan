@@ -226,19 +226,7 @@ eval("\n\nif (false) {} else {\n  module.exports = __webpack_require__(/*! ./cjs
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\");\n/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _Header__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Header */ \"./src/Header.jsx\");\n/* harmony import */ var _Locker__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Locker */ \"./src/Locker.jsx\");\n\n\n\n\n\nconst App = () => {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Header__WEBPACK_IMPORTED_MODULE_2__[\"default\"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Locker__WEBPACK_IMPORTED_MODULE_3__[\"default\"], null));\n};\n\nreact_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(App, null), document.getElementById('root'));\n\n//# sourceURL=webpack:///./src/App.jsx?");
-
-/***/ }),
-
-/***/ "./src/Header.jsx":
-/*!************************!*\
-  !*** ./src/Header.jsx ***!
-  \************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n\n\nconst Heading = () => {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    id: \"heading\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    id: \"headingtitle\"\n  }, \"PassMan\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    id: \"headingsubtitle\"\n  }, \"Master Password Manager\"));\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (Heading);\n\n//# sourceURL=webpack:///./src/Header.jsx?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\");\n/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _SideBar__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./SideBar */ \"./src/SideBar.jsx\");\n/* harmony import */ var _Locker__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Locker */ \"./src/Locker.jsx\");\n/* harmony import */ var _MasterGenerator__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./MasterGenerator */ \"./src/MasterGenerator.jsx\");\n\n\n\n\n\n\nconst App = () => {\n  const [page, updatePage] = Object(react__WEBPACK_IMPORTED_MODULE_0__[\"useState\"])( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_MasterGenerator__WEBPACK_IMPORTED_MODULE_4__[\"default\"], null));\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    id: \"appwrap\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SideBar__WEBPACK_IMPORTED_MODULE_2__[\"default\"], {\n    page: page,\n    updatePage: updatePage\n  }), page);\n};\n\nreact_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(App, null), document.getElementById('root'));\n\n//# sourceURL=webpack:///./src/App.jsx?");
 
 /***/ }),
 
@@ -250,7 +238,54 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var reac
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n\n\nconst Locker = () => {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    id: \"locker\"\n  }, \"Locker\");\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (Locker);\n\n//# sourceURL=webpack:///./src/Locker.jsx?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n\n\nconst {\n  ipcRenderer\n} = __webpack_require__(/*! electron */ \"electron\");\n\nconst Locker = () => {\n  const hashPass = () => {\n    const password = document.getElementById('password').value;\n    console.log(password);\n    ipcRenderer.send('hashMaster', password);\n  };\n\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    id: \"locker\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"input\", {\n    id: \"password\",\n    placeholder: \"enter password here\"\n  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"input\", {\n    id: \"submit\",\n    type: \"submit\",\n    onClick: () => hashPass()\n  }));\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (Locker);\n\n//# sourceURL=webpack:///./src/Locker.jsx?");
+
+/***/ }),
+
+/***/ "./src/MasterGenerator.jsx":
+/*!*********************************!*\
+  !*** ./src/MasterGenerator.jsx ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n\n\nconst MasterGenerator = () => {\n  const strongpass = \"Please enter a strong master password.\";\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    id: \"mastergenerator\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"p\", {\n    id: \"strongpass\"\n  }, strongpass));\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (MasterGenerator);\n\n//# sourceURL=webpack:///./src/MasterGenerator.jsx?");
+
+/***/ }),
+
+/***/ "./src/PasswordDatabase.jsx":
+/*!**********************************!*\
+  !*** ./src/PasswordDatabase.jsx ***!
+  \**********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n\n\nconst PasswordDatabase = () => {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    id: \"passworddb\"\n  }, \"This is the password database\");\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (PasswordDatabase);\n\n//# sourceURL=webpack:///./src/PasswordDatabase.jsx?");
+
+/***/ }),
+
+/***/ "./src/SideBar.jsx":
+/*!*************************!*\
+  !*** ./src/SideBar.jsx ***!
+  \*************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _MasterGenerator__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./MasterGenerator */ \"./src/MasterGenerator.jsx\");\n/* harmony import */ var _PasswordDatabase__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./PasswordDatabase */ \"./src/PasswordDatabase.jsx\");\n\n\n\n\nconst SideBar = ({\n  page,\n  updatePage\n}) => {\n  const renderMasterGenerator = () => {\n    console.log('Rendering master generator page');\n    updatePage( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_MasterGenerator__WEBPACK_IMPORTED_MODULE_1__[\"default\"], null));\n  };\n\n  const renderPasswordDatabase = () => {\n    console.log('Rendering password database page');\n    updatePage( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_PasswordDatabase__WEBPACK_IMPORTED_MODULE_2__[\"default\"], null));\n  };\n\n  const renderAppSettings = () => {\n    console.log('Rendering app settings page');\n  };\n\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    id: \"sidebar\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"icons\",\n    onClick: () => renderMasterGenerator()\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"img\", {\n    src: \"./src/icons/open-iconic-master/svg/beaker.svg\",\n    width: \"30px\",\n    height: \"30px\"\n  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"icons\",\n    onClick: () => renderPasswordDatabase()\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"img\", {\n    src: \"./src/icons/open-iconic-master/svg/box.svg\",\n    width: \"30px\",\n    height: \"30px\"\n  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"icons\",\n    onClick: () => renderAppSettings()\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"img\", {\n    src: \"./src/icons/open-iconic-master/svg/list.svg\",\n    width: \"30px\",\n    height: \"30px\"\n  })));\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (SideBar);\n\n//# sourceURL=webpack:///./src/SideBar.jsx?");
+
+/***/ }),
+
+/***/ "electron":
+/*!***************************!*\
+  !*** external "electron" ***!
+  \***************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("module.exports = require(\"electron\");\n\n//# sourceURL=webpack:///external_%22electron%22?");
 
 /***/ })
 
