@@ -49,6 +49,7 @@ body {
 	width: 90vw;
 	height: 100vh;
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	background: pink;	
@@ -58,9 +59,56 @@ body {
 	width: 90vw;
 	height: 100vh;
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	background: purple;	
+}
+
+#appsettings {
+	width: 90vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: yellow;	
+}
+
+#passentry {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: crimson;
+}
+
+#keylist {
+	width: 80vw;
+	height: 50vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: blue;
+	overflow: scroll;
+}
+
+#keyadder {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: crimson;
+}
+
+#keys {
+	background: yellow;
+}
+
+#ctextctrl {
+	display: flex;
+	justify-content: flex-start;
+	align-items: space-between;
+	background: lime;
 }
 
 .icons {

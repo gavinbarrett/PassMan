@@ -1,8 +1,9 @@
 import React from 'react';
 import MasterGenerator from './MasterGenerator';
 import PasswordDatabase from './PasswordDatabase';
+import AppSettings from './AppSettings';
 
-const SideBar = ({page, updatePage}) => {
+const SideBar = ({updatePage}) => {
 
 	const renderMasterGenerator = () => {
 		console.log('Rendering master generator page');
@@ -14,6 +15,7 @@ const SideBar = ({page, updatePage}) => {
 	}
 	const renderAppSettings = () => {
 		console.log('Rendering app settings page');
+		updatePage(<AppSettings/>);
 	}
 
 	return (<div id='sidebar'>

@@ -9,7 +9,7 @@ const App = () => {
 	const [page, updatePage] = useState(<MasterGenerator/>);
 
 	return (<div id='appwrap'>
-	<SideBar page={page} updatePage={updatePage}/>
+	<SideBar updatePage={updatePage}/>
 	{page}
 	</div>);
 }
